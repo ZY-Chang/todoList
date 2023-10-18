@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="ZY-Chang" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="discription" content="輸入網頁簡介或關鍵字" />
+    <base target=="_self" />
+
+    <title>Todo list</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Todo List</h1>
+    </header>
+
+    <form action="">
+      <input type="text" />
+      <input type="number" max="12" min="1" placeholder="M" />
+      <input type="number" max="31" min="1" placeholder="D" />
+      <button type="submit">Add Todo List</button>
+    </form>
+    <br />
+    <div class="sort">
+      <button>Sort By Time</button>
+    </div>
+    <br />
+    <!-- 用來放新增的事項 -->
+    <section></section>
+  </body>
+  <script src="./app.js"></script>
+</html>
